@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+
+ 	<h1>Meu primeiro site</h1>	
+
+	<ul>
+	{% for s in skills %}
+		<li>{{s}}</li>
+	{% endfor %}
+	</ul>
+
+{% endblock %}
